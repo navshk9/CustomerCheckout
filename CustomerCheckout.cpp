@@ -43,8 +43,9 @@ int employeeLogin(int employeeID) {
 }
 
 double findProduct(int product_id) {
-    double price = 0.0;
-    price = prices[product_id - 1];
+    double price = 0;
+    if (product_id <= 6 && product_id > 0)
+        price = prices[product_id - 1];
     return price;
 }
 
