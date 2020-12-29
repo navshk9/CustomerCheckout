@@ -5,7 +5,7 @@
 This application is a simple cash register where a user can purchase products. An employee first logs in using an existing employee ID and then adds items to cart using a product ID. The program gets the price associated with the product. The user specifies the quantity for the product. Once the user is done adding all the products to the card, they can check out. Once the user selects this option, they are given a summary of the cart including the total. From here, the user can either finalize the order or cancel the order. Once that is done, the user can checkout as many customers as they would like and then exit once done. 
 
 
-## Sample Run
+## Sample Output
 
 ```bash
 ******************** Main Menu ********************
