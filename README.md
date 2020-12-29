@@ -7,21 +7,52 @@ This application is a simple cash register where a user can purchase products. A
 
 ## Sample Run
 
-Raw Input: 
-8 
-1
-8
-1
-1
-9
-1
-2
-1
-2
-2
-0
-y
-0
+```bash
+******************** Main Menu ********************
+1) Login
+0) Exit
+Enter an option (0-1): 9
+******************** Main Menu ********************
+1) Login
+0) Exit
+You entered a wrong value. Enter an option (0-1): 1
+Enter the employee ID: 9
+The employee does not exist.
+******************** Main Menu ********************
+1) Login
+0) Exit
+Enter an option (0-1): 1
+Enter the employee ID: 1
+You are logged in.
+-------------- Add Products to Cart --------------
+Enter the product ID: 1
+Product Price: 1.99
+Enter the product Quantity: 1
+Enter 1 to add more products or 0 to checkout: 1
+Enter the product ID: 2
+Product Price: 2.99
+Enter the product Quantity: 3
+Enter 1 to add more products or 0 to checkout: 0
+------- Ordered Products ---------
+---Item 1
+Product ID: 1
+Price: 1.99
+Quantity: 1
+---Item 2
+Product ID: 2
+Price: 2.99
+Quantity: 3
+----------------------------------
+Total: 10.96
+Would you like to checkout? (Y/y or N/n) y
+The order is successfully completed.
+******************** Main Menu ********************
+1) Login
+0) Exit
+Enter an option (0-1): 0
+Good bye!...
+
+```
 
 ## What I learned
 
